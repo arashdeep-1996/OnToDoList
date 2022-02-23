@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>999030346370-bfo3otq9hh65vtkrnstl3bgsn0fjcloj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.999030346370-bfo3otq9hh65vtkrnstl3bgsn0fjcloj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAUzMrvfKj1pcLXPYkqdSfqLc92hiN6ri0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>999030346370</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.List.OnToDoApp</string>
+	<key>PROJECT_ID</key>
+	<string>ontodo-9e1be</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ontodo-9e1be.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:999030346370:ios:033271383e22c1d899da9b</string>
+	<key>DATABASE_URL</key>
+	<string>https://ontodo-9e1be-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

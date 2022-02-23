@@ -17,6 +17,7 @@
 		5C0CD2A327BB353400A2C24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0CD2A127BB353400A2C24D /* LaunchScreen.storyboard */; };
 		5CD0459827C54FC40014E3E7 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0459727C54FC40014E3E7 /* signInViewController.swift */; };
 		B6B1EAFD27C56E52005DCA2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B1EAFC27C56E52005DCA2D /* LoginViewController.swift */; };
+		C5265C6327C68770008C6F18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5265C6227C68770008C6F18 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		607D514E20BF5380CC249C94 /* Pods_OnToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CD4BFF9D966CBCA49A187F /* Pods-OnToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnToDo.debug.xcconfig"; path = "Target Support Files/Pods-OnToDo/Pods-OnToDo.debug.xcconfig"; sourceTree = "<group>"; };
 		B6B1EAFC27C56E52005DCA2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C5265C6227C68770008C6F18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED3B0EFCEF4736981F1F3BD1 /* Pods-OnToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnToDo.release.xcconfig"; path = "Target Support Files/Pods-OnToDo/Pods-OnToDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				5C0CD29927BB353300A2C24D /* Main.storyboard */,
 				5C0CD29F27BB353400A2C24D /* Assets.xcassets */,
 				5C0CD2A127BB353400A2C24D /* LaunchScreen.storyboard */,
+				C5265C6227C68770008C6F18 /* GoogleService-Info.plist */,
 				5C0CD2A427BB353400A2C24D /* Info.plist */,
 				5C0CD29C27BB353300A2C24D /* OnToDo.xcdatamodeld */,
 				5CD0459727C54FC40014E3E7 /* signInViewController.swift */,
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0CD2A327BB353400A2C24D /* LaunchScreen.storyboard in Resources */,
+				C5265C6327C68770008C6F18 /* GoogleService-Info.plist in Resources */,
 				5C0CD2A027BB353400A2C24D /* Assets.xcassets in Resources */,
 				5C0CD29B27BB353300A2C24D /* Main.storyboard in Resources */,
 			);
