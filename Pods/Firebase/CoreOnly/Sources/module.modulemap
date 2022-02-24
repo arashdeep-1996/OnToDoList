@@ -1,4 +1,4 @@
-module Firebase {
+module FireBase {
   export *
   header "Firebase.h"
 }

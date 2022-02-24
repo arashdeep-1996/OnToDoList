@@ -25,6 +25,7 @@
 		C5BED89727C68FD60017C228 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C5BED89627C68FD60017C228 /* FirebaseStorage */; };
 		C5BED89927C68FD60017C228 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C5BED89827C68FD60017C228 /* FirebaseAuth */; };
 		C5BED89B27C68FD60017C228 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C5BED89A27C68FD60017C228 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		C5D30C1027C6EC3500171528 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D30C0F27C6EC3500171528 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		75CD4BFF9D966CBCA49A187F /* Pods-OnToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnToDo.debug.xcconfig"; path = "Target Support Files/Pods-OnToDo/Pods-OnToDo.debug.xcconfig"; sourceTree = "<group>"; };
 		B6B1EAFC27C56E52005DCA2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C5265C6227C68770008C6F18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5D30C0F27C6EC3500171528 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		ED3B0EFCEF4736981F1F3BD1 /* Pods-OnToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnToDo.release.xcconfig"; path = "Target Support Files/Pods-OnToDo/Pods-OnToDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 				5C0CD29C27BB353300A2C24D /* OnToDo.xcdatamodeld */,
 				5CD0459727C54FC40014E3E7 /* signInViewController.swift */,
 				B6B1EAFC27C56E52005DCA2D /* LoginViewController.swift */,
+				C5D30C0F27C6EC3500171528 /* ProfileViewController.swift */,
 			);
 			path = OnToDo;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				5C0CD29827BB353300A2C24D /* ViewController.swift in Sources */,
 				5C0CD29427BB353300A2C24D /* AppDelegate.swift in Sources */,
 				5C0CD29E27BB353300A2C24D /* OnToDo.xcdatamodeld in Sources */,
+				C5D30C1027C6EC3500171528 /* ProfileViewController.swift in Sources */,
 				5C0CD29627BB353300A2C24D /* SceneDelegate.swift in Sources */,
 				5CD0459827C54FC40014E3E7 /* signInViewController.swift in Sources */,
 			);
