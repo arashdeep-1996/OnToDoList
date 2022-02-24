@@ -40,7 +40,6 @@ class ProfileViewController: UIViewController {
         
         let user = ["id": key, "userName": name.text! as String, "userPhone": phone.text! as String, "userEmail": email.text! as String]
         
-        ref.child(key ?? <#default value#>).setValue(user)
     }
 
 }
