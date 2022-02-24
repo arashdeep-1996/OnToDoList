@@ -39,6 +39,33 @@ class signInViewController: UIViewController {
                 print("Missing field data")
                 return
         }
+        // Create cleaned versions of the data
+        let firstName = fName.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+    let eMail = Email.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        
+        // Create the user
+        Auth.auth().createUser(withEmail: email, password: password) { [self] (result, err) in
+            
+            // Check for errors
+            if err != nil {
+                
+                // There was an error creating the user
+                print("Error creating user")
+            }
+            else {
+                
+                // User was created successfully, now store the first name and last name
+                let db = Firestore.firestore()
+                
+                db.collection("users").addDocument(data: ["fName":firstName, "Email":eMail, "uid": result!.user.uid ]) { (error) in
+                    
+                    if error != nil {
+                        // Show error message
+                        print("Error saving user data")
+                    }
+                }
         //Get auth instance
         //attempt sign in
         //if failure, present alert to create account
