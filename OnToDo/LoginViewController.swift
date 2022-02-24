@@ -60,7 +60,7 @@ class LoginViewController: UIViewController{
                 if let err = err {
                     print(err.localizedDescription)
                 }
-                self.checkUserInfo()
+                self!.checkUserInfo()
             }
         
         }
