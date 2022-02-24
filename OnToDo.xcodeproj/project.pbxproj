@@ -26,6 +26,7 @@
 		C5BED89927C68FD60017C228 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C5BED89827C68FD60017C228 /* FirebaseAuth */; };
 		C5BED89B27C68FD60017C228 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C5BED89A27C68FD60017C228 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		C5D30C1027C6EC3500171528 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D30C0F27C6EC3500171528 /* ProfileViewController.swift */; };
+		F24D5E4C27C7727200BE3909 /* AddingTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D5E4B27C7727200BE3909 /* AddingTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		C5265C6227C68770008C6F18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5D30C0F27C6EC3500171528 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		ED3B0EFCEF4736981F1F3BD1 /* Pods-OnToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnToDo.release.xcconfig"; path = "Target Support Files/Pods-OnToDo/Pods-OnToDo.release.xcconfig"; sourceTree = "<group>"; };
+		F24D5E4B27C7727200BE3909 /* AddingTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				5CD0459727C54FC40014E3E7 /* signInViewController.swift */,
 				B6B1EAFC27C56E52005DCA2D /* LoginViewController.swift */,
 				C5D30C0F27C6EC3500171528 /* ProfileViewController.swift */,
+				F24D5E4B27C7727200BE3909 /* AddingTaskViewController.swift */,
 			);
 			path = OnToDo;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				B6B1EAFD27C56E52005DCA2D /* LoginViewController.swift in Sources */,
 				5C0CD29827BB353300A2C24D /* ViewController.swift in Sources */,
+				F24D5E4C27C7727200BE3909 /* AddingTaskViewController.swift in Sources */,
 				5C0CD29427BB353300A2C24D /* AppDelegate.swift in Sources */,
 				5C0CD29E27BB353300A2C24D /* OnToDo.xcdatamodeld in Sources */,
 				C5D30C1027C6EC3500171528 /* ProfileViewController.swift in Sources */,
